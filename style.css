@@ -4,6 +4,9 @@
 #EA7862 pink 
 #A45445 dark pink */
 
+body{
+    margin: 0;
+}
 .my-logo{
     width: 50px;
     height: 50px;
@@ -15,10 +18,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
-    margin: 00px;
 }
 .hero{
-    margin: 00;
 }
 
 .main-nav{
@@ -54,27 +55,22 @@
 }
 
 .about-me{
-    height: 400px;
     background-color: #A47345;
 }
 
 .colleges{
-    height: 400px;
     background-color: #EA9A62;
 }
 
 .clubs{
-    height: 400px;
     background-color: #A47345;
 }
 
 .advisors{
-    height: 400px;
     background-color: #EA9A62;
 }
 
 .contacts{
-    height: 200px;
     background-color: #A47345;
 }
 
@@ -111,4 +107,20 @@
 .instagram, .snapchat, .email, .twitter, .facebook{
     height: 200px;
     width: 200px;
+}
+.container{
+    width: 100%;
+}
+.col-md-6{
+    width: 100%;
+}
+@media (min-width: 600px){
+    .container{
+        width: 780px;
+        margin: 0 auto;
+    }
+    .col-md-6{
+        width: 45%;
+        float: left;
+    }
 }
