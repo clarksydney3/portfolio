@@ -4,7 +4,7 @@
 #EA7862 pink 
 #A45445 dark pink */
 
-body{
+/* body{
     margin: 0;
 }
 .my-logo{
@@ -32,7 +32,7 @@ body{
    /*margin-top: 0px;*/
 }
 
-.hero-text{
+/* .hero-text{
     text-align: center;
     position: absolute;
     color: #A45445;
@@ -50,7 +50,7 @@ body{
     /*font-weight: 900px;*/
 }
 
-.main-nav a:hover {
+/* .main-nav a:hover {
     background: #A45445
 }
 
@@ -60,9 +60,9 @@ body{
 
 .colleges{
     background-color: #EA9A62;
-}
+} */
 
-.clubs{
+/* .clubs{
     background-color: #A47345;
 }
 
@@ -76,43 +76,36 @@ body{
 
 .sydney{
     height: 350px;
-    width: 400px;
 }
 
 .missouri{
     height: 200px;
-    width: 200px;
 }
 
 .purdue{
     height: 200px;
-    width: 200px;
 }
 
 .maryville{
     height: 200px;
-    width: 200px;
 }
 
 .semo{
     height: 200px;
-    width: 200px;
 }
 
-.siue{
+.siue{ 
     height: 200px;
-    width: 200px;
 }
 
 .instagram, .snapchat, .email, .twitter, .facebook{
     height: 200px;
-    width: 200px;
-}
+} */
 .container{
     width: 100%;
 }
 .col-md-6{
-    width: 100%;
+    display: block;
 }
 @media (min-width: 600px){
     .container{
