@@ -20,10 +20,9 @@
     background-size: cover;
     height: 350px;
     background-position: center;
-    text-align: center;
 }
-.hero{
-}
+/* .hero{
+} */
 
 .main-nav{
     background-color: #EA7862;
@@ -31,6 +30,7 @@
     position: fixed;
     overflow: hidden;
     top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*word-spacing: 10px;*/
    /*margin-top: 0px;*/
 }
@@ -38,18 +38,19 @@
  .hero-text{
     position: absolute;
     color: #A45445;
-    float: center;
     font-size: 30px;
-    margin: 50%;
+    margin: 60%, 35%;
+    text-align: center;
 }
 
 
 .main-nav a {
     padding-right: 10px;
     font-size: 30px;
-    font-style: oblique;
+    /* font-style: oblique; */
     color: #EABE62;
     padding: 14px 16px;
+    float: right;
     /*font-weight: 900px;*/
 }
 
@@ -79,25 +80,10 @@
 
 .sydney{
     height: 350px;
+    overflow: hidden;
 }
 
-.missouri{
-    height: 200px;
-}
-
-.purdue{
-    height: 200px;
-}
-
-.maryville{
-    height: 200px;
-}
-
-.semo{
-    height: 200px;
-}
-
-.siue{ 
+.missouri, .purdue, .maryville, .siue, .semo{
     height: 200px;
 }
 
@@ -128,5 +114,8 @@
     flex-wrap: wrap;
     flex-direction:inherit;
     justify-content: space-between;
-    gap: 12px;
+    /* gap: 12px; */
+}
+.contact.ul{
+    float: right;
 }
