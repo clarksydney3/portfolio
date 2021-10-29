@@ -44,11 +44,10 @@
 
 .main-nav a {
     padding-right: 10px;
-    font-size: 30px;
     /* font-style: oblique; */
     color: #EABE62;
-    padding: 14px 16px;
-    float: right;
+    padding: 20px;
+    float: left;
     /*font-weight: 900px;*/
 }
 
@@ -56,23 +55,33 @@
     background: #A45445
 }
 
-.about-me, .clubs, .contacts{
-    background-color: #A47345;
+.about-me, .clubs{
+    color: #A47345;
     /* invert, make the background white and the text brown */
+}
+
+.contacts{
+    background-color: #A47345;
 }
 
 .colleges, .advisors{
     background-color: #EA9A62;
 } 
 
+.missouri, .semo, .siue, .maryville, .purdue{
+    /* width: 20%; */
+    border-radius: 50%;
+    height: 100px;
+}
+
 .sydney{
     height: 350px;
     overflow: hidden;
 }
 
-.missouri, .purdue, .maryville, .siue, .semo{
-    /* height: 200px; */
-    border-radius: 50%
+.colleges-images{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .instagram, .snapchat, .email, .twitter, .facebook{
@@ -106,7 +115,7 @@
     display: flex;
     flex-wrap: wrap;
     /* flex-direction:inherit; */
-    justify-content: space-between;
+    justify-content: space-evenly;
     /* gap: 50px;  */
     padding: 50px;
 }
@@ -119,4 +128,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    justify-content: space-evenly;
 }
