@@ -20,8 +20,6 @@
     height: 350px;
     background-position: center;
 }
-/* .hero{
-} */
 
 .main-nav{
     background-color: #EA7862;
@@ -32,6 +30,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*word-spacing: 10px;*/
    /*margin-top: 0px;*/
+   /* ask how to make the nav bar responsive */
 }
 
  .hero-text{
@@ -59,6 +58,7 @@
 
 .about-me, .clubs, .contacts{
     background-color: #A47345;
+    /* invert, make the background white and the text brown */
 }
 
 .colleges, .advisors{
@@ -71,7 +71,8 @@
 }
 
 .missouri, .purdue, .maryville, .siue, .semo{
-    height: 200px;
+    /* height: 200px; */
+    border-radius: 50%
 }
 
 .instagram, .snapchat, .email, .twitter, .facebook{
@@ -104,7 +105,7 @@
 .box{
     display: flex;
     flex-wrap: wrap;
-    flex-direction:inherit;
+    /* flex-direction:inherit; */
     justify-content: space-between;
     /* gap: 50px;  */
     padding: 50px;
@@ -117,4 +118,5 @@
 .box-handles{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
