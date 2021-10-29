@@ -4,7 +4,7 @@
 #EA7862 pink 
 #A45445 dark pink */
 
-/* body{
+ body{
     margin: 0;
     add a font family
 }
@@ -32,16 +32,16 @@
     overflow: hidden;
     top: 0;
     /*word-spacing: 10px;*/
-   /*margin-top: 0px;
+   /*margin-top: 0px;*/
 }
 
-/* .hero-text{
+ .hero-text{
     position: absolute;
     color: #A45445;
-    margin-top: 120px;
-    margin-left: 45%;
-    font-size: 46px;
-    margin-top: 15%;
+    text-align: center;
+    float: center;
+    font-size: 30px;
+    margin: 50%;
 }
 
 
@@ -54,7 +54,7 @@
     /*font-weight: 900px;*/
 }
 
-/* .main-nav a:hover {
+ .main-nav a:hover {
     background: #A45445
 }
 
@@ -64,9 +64,9 @@
 
 .colleges{
     background-color: #EA9A62;
-} */
+} 
 
-/* .clubs{
+ .clubs{
     background-color: #A47345;
 }
 
@@ -104,7 +104,7 @@
 
 .instagram, .snapchat, .email, .twitter, .facebook{
     height: 200px;
-} */
+} 
 .container{
     width: 100%;
 }
