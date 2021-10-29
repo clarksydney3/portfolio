@@ -57,25 +57,13 @@
     background: #A45445
 }
 
-.about-me{
+.about-me, .clubs, .contacts{
     background-color: #A47345;
 }
 
-.colleges{
+.colleges, .advisors{
     background-color: #EA9A62;
 } 
-
- .clubs{
-    background-color: #A47345;
-}
-
-.advisors{
-    background-color: #EA9A62;
-}
-
-.contacts{
-    background-color: #A47345;
-}
 
 .sydney{
     height: 350px;
@@ -89,12 +77,15 @@
 .instagram, .snapchat, .email, .twitter, .facebook{
     height: 200px;
 } 
+
 .container{
     width: 100%;
 }
+
 .col-md-6{
     display: block;
 }
+
 @media (min-width: 600px){
     .container{
         width: 780px;
@@ -105,16 +96,25 @@
         float: left;
     }
 }
+
 .adv1, .adv2, .adv3, .adv4{
     height: 50px;
 }
+
 .box{
     display: flex;
     flex-wrap: wrap;
     flex-direction:inherit;
     justify-content: space-between;
-    /* gap: 12px; */
+    /* gap: 50px;  */
+    padding: 50px;
 }
+
 .contact.ul{
     float: right;
+}
+
+.box-handles{
+    display: flex;
+    flex-wrap: wrap;
 }
