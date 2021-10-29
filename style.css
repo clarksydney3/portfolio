@@ -38,7 +38,6 @@
  .hero-text{
     position: absolute;
     color: #A45445;
-    text-align: center;
     float: center;
     font-size: 30px;
     margin: 50%;
@@ -120,4 +119,14 @@
         width: 45%;
         float: left;
     }
+}
+.adv1, .adv2, .adv3, .adv4{
+    width: 50px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:inherit;
+    justify-content: space-between;
+    gap: 12px;
 }
