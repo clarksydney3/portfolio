@@ -84,7 +84,7 @@ body{
     justify-content: space-evenly;
 }
 
-.instagram, .snapchat, .email, .twitter, .facebook{
+.instagram-img, .twitter-img, .facebook-img{
     border: 5px solid whitesmoke;
     height: 200px;
     border-radius: 50%;
@@ -123,9 +123,9 @@ body{
     padding: 50px;
 }
 
-.contact.ul{
+/* .contacts.span{
     float: right;
-}
+} */
 
 .box-handles{
     display: flex;
