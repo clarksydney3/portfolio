@@ -31,25 +31,23 @@ body{
    /* ask how to make the nav bar responsive */
 }
 
- .hero-text{
-    position: absolute;
+
+.hero-text{
+    /* position: absolute; */
+    display:flex;
     color: #A45445;
     font-size: 30px;
-    margin: 60%, 35%;
+    margin-right: 50%;
     text-align: center;
 }
 
 
-.main-nav a {
-    padding-right: 10px;
-    /* font-style: oblique; */
+.main-nav span {
     color: #EABE62;
     padding: 20px;
-    float: left;
-    /*font-weight: 900px;*/
 }
 
- .main-nav a:hover {
+.main-nav span:hover {
     background: #A45445
 }
 
@@ -86,7 +84,7 @@ body{
 
 .instagram-img, .twitter-img, .facebook-img{
     border: 5px solid whitesmoke;
-    height: 200px;
+    height: 50px;
     border-radius: 50%;
     /* find a white snapchat theme, and make all images the same size */
 } 
@@ -130,6 +128,6 @@ body{
 .box-handles{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
     justify-content: space-evenly;
 }
