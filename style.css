@@ -33,12 +33,12 @@ body{
 
 
 .hero-text{
-    /* position: absolute; */
-    display:flex;
+    position: absolute;
     color: #A45445;
     font-size: 30px;
     margin-right: 50%;
     text-align: center;
+    margin-top: 50px;
 }
 
 
