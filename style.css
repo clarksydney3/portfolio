@@ -121,13 +121,17 @@ body{
     padding: 50px;
 }
 
-/* .contacts.span{
-    float: right;
-} */
-
 .box-handles{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h1{
+    font-size: 35px;
 }
