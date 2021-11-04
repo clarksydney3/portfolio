@@ -23,14 +23,31 @@ body{
 
 .main-nav{
     background-color: #EA7862;
-    padding-right: 100px;
     position: fixed;
     overflow: hidden;
     top: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   /* ask how to make the nav bar responsive */
+    width: 100%;
+    /* ask how to make the nav bar responsive */
+   /* display: inline; */
 }
 
+.main-nav li {
+    color: #EABE62;
+    padding: 20px;
+    scroll-behavior: smooth;
+    /* list-style-type: none; */
+    /* text-decoration: none; */
+    display: inline;
+    float: right;
+    /* make scrolling smooth */
+}
+
+.main-nav a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #EABE62;
+}
 
 .hero-text{
     position: absolute;
@@ -41,15 +58,7 @@ body{
     margin-top: 50px;
 }
 
-
-.main-nav a {
-    color: #EABE62;
-    padding: 20px;
-    scroll-behavior: smooth;
-    /* make scrolling smooth */
-}
-
-.main-nav a:hover {
+.main-nav li:hover {
     background: #A45445
 }
 
