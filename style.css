@@ -29,15 +29,12 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     /* ask how to make the nav bar responsive */
-   /* display: inline; */
 }
 
 .main-nav li {
     color: #EABE62;
     padding: 20px;
     scroll-behavior: smooth;
-    /* list-style-type: none; */
-    /* text-decoration: none; */
     display: inline;
     float: right;
     /* make scrolling smooth */
@@ -47,21 +44,22 @@ body{
     list-style-type: none;
     text-decoration: none;
     color: #EABE62;
+    padding: 15px;
 }
 
 .hero-text{
     position: absolute;
     color: #A45445;
     font-size: 30px;
-    margin-right: 50%;
-    text-align: center;
     margin-top: 50px;
+    padding-left: 50%;
+    padding-top: 80px;
 }
 
-.main-nav li:hover {
-    background: #A45445
+.main-nav a:hover{
+    background-color: #A45445;
+    padding: 15px;
 }
-
 .about-me, .clubs{
     color: #A47345;
 }
