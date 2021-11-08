@@ -31,7 +31,7 @@ body{
     /* ask how to make the nav bar responsive */
 }
 
-.main-nav li {
+.desktop-nav li {
     color: #EABE62;
     padding: 20px;
     scroll-behavior: smooth;
@@ -40,7 +40,7 @@ body{
     /* make scrolling smooth */
 }
 
-.main-nav a{
+.desktop-nav a{
     list-style-type: none;
     text-decoration: none;
     color: #EABE62;
@@ -56,9 +56,14 @@ body{
     padding-top: 80px;
 }
 
-.main-nav li:hover{
+.desktop-nav li:hover{
     background-color: #A45445;
     padding: 15px;
+}
+
+.mobile-nav{
+    /* how to hide this for now*/
+    display: none;
 }
 .about-me, .clubs{
     color: #A47345;
