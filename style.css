@@ -10,7 +10,7 @@ body{
 .my-logo{
     width: 50px;
     height: 50px;
-    float:left;
+    /* float:left; */
 }
 
 .hero-image{
@@ -33,18 +33,17 @@ body{
 
 
 .desktop-nav a {
-    float: left;
+    float: right;
     color: #EABE62;
-    padding: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     /* display: inline-block; */
     text-align: center;
     text-decoration: none;
     /* make scrolling smooth */
 }
 
-.desktop-nav-right{
-    float:right;
-}
 
 .hero-text{
     position: absolute;
@@ -81,6 +80,7 @@ body{
     border: 5px solid black;
     border-radius: 50%;
     height: 100px;
+    margin: 15px;
     /* Find a white semo logo, and a square siue logo */
 }
 
