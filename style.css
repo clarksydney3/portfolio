@@ -4,147 +4,154 @@
 #EA7862 pink 
 #A45445 dark pink */
 
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
-.my-logo{
-    width: 50px;
-    height: 50px;
-    /* float:left; */
-}
-
-.hero-image{
-    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v880-techi-08-master.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8d4c0ceb7df2e8fe25660e643e3a7cbe);
-    /* top/cover; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-    background-position: center;
+.my-logo {
+  width: 50px;
+  height: 50px;
+  /* float:left; */
 }
 
-.main-nav{
-    background-color: #EA7862;
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
+.hero-image {
+  background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v880-techi-08-master.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8d4c0ceb7df2e8fe25660e643e3a7cbe);
+  /* top/cover; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  background-position: center;
 }
 
+.main-nav {
+  background-color: #ea7862;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+}
 
 .desktop-nav a {
-    float: right;
-    color: #EABE62;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    /* display: inline-block; */
-    text-align: center;
-    text-decoration: none;
-    /* make scrolling smooth */
+  float: right;
+  color: #eabe62;
+  padding: 15px;
+  /* display: inline-block; */
+  text-align: center;
+  text-decoration: none;
+  /* make scrolling smooth */
 }
 
-
-.hero-text{
-    position: absolute;
-    color: #A45445;
-    font-size: 30px;
-    margin-top: 50px;
-    padding-left: 50%;
-    padding-top: 80px;
+.hero-text {
+  position: absolute;
+  color: #a45445;
+  font-size: 30px;
+  margin-top: 50px;
+  padding-left: 50%;
+  padding-top: 80px;
 }
 
 .desktop-nav a:hover {
-    background-color: #A45445;
-    padding: 15px;
+  background-color: #a45445;
+  padding: 15px;
 }
 
-.mobile-nav{
-    /* how to hide this for now*/
-    display: none;
+.mobile-nav {
+  /* have to hide this for now*/
+  display: none;
 }
-#about-me, #clubs{
-    color: #A47345;
-}
-
-#contacts{
-    background-color: #A47345;
+#about-me,
+#clubs {
+  color: #a47345;
 }
 
-#colleges, #advisors{
-    background-color: #EA9A62;
-} 
-
-.missouri, .semo, .siue, .maryville, .purdue{
-    /* width: 20%; */
-    border: 5px solid black;
-    border-radius: 50%;
-    height: 100px;
-    margin: 15px;
-    /* Find a white semo logo, and a square siue logo */
+#contacts {
+  background-color: #a47345;
 }
 
-.sydney{
-    height: 350px;
-    overflow: hidden;
+#colleges,
+#advisors {
+  background-color: #ea9a62;
 }
 
-.colleges-images{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.missouri,
+.semo,
+.siue,
+.maryville,
+.purdue {
+  /* width: 20%; */
+  border: 5px solid black;
+  border-radius: 50%;
+  height: 100px;
+  margin: 15px;
+  /* Find a white semo logo, and a square siue logo */
 }
 
-.instagram-img, .twitter-img, .facebook-img{
-    border: 5px solid whitesmoke;
-    height: 50px;
-    border-radius: 50%;
-    /* find a white snapchat theme, and make all images the same size */
-} 
-
-.container{
-    width: 100%;
+.sydney {
+  height: 350px;
+  overflow: hidden;
 }
 
-.col-md-6{
-    display: block;
+.colleges-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-@media (min-width: 600px){
-    .container{
-        width: 780px;
-        margin: 0 auto;
-    }
-    .col-md-6{
-        width: 45%;
-        float: left;
-    }
+.instagram-img,
+.twitter-img,
+.facebook-img {
+  border: 5px solid whitesmoke;
+  height: 50px;
+  border-radius: 50%;
+  /* find a white snapchat theme, and make all images the same size */
 }
 
-.adv1, .adv2, .adv3, .adv4{
-    height: 50px;
+.container {
+  width: 100%;
 }
 
-.box{
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction:inherit; */
-    justify-content: space-evenly;
-    /* gap: 50px;  */
-    padding: 50px;
+.col-md-6 {
+  display: block;
 }
 
-.socials{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: space-evenly;
+@media (min-width: 600px) {
+  .container {
+    width: 780px;
+    margin: 0 auto;
+  }
+  .col-md-6 {
+    width: 45%;
+    float: left;
+  }
+}
+
+.adv1,
+.adv2,
+.adv3,
+.adv4 {
+  height: 50px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction:inherit; */
+  justify-content: space-evenly;
+  /* gap: 50px;  */
+  padding: 50px;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
 h2 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
-h1{
-    font-size: 35px;
+h1 {
+  font-size: 35px;
 }
