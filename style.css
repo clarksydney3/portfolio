@@ -13,8 +13,8 @@ body{
 }
 
 .hero-image{
-    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v880-techi-08-master.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8d4c0ceb7df2e8fe25660e643e3a7cbe)
-    top/cover;
+    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v880-techi-08-master.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8d4c0ceb7df2e8fe25660e643e3a7cbe);
+    /* top/cover; */
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
@@ -28,7 +28,7 @@ body{
     top: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
-    /* ask how to make the nav bar responsive */
+    scroll-behavior: smooth;
 }
 
 .desktop-nav a {
@@ -36,7 +36,7 @@ body{
     padding: 20px;
     display: flex;
     float: right;
-    make scrolling smooth
+    /* make scrolling smooth */
 }
 
 
@@ -65,15 +65,15 @@ body{
     /* how to hide this for now*/
     display: none;
 }
-.about-me, .clubs{
+#about-me, #clubs{
     color: #A47345;
 }
 
-.contacts{
+#contacts{
     background-color: #A47345;
 }
 
-.colleges, .advisors{
+#colleges, #advisors{
     background-color: #EA9A62;
 } 
 
