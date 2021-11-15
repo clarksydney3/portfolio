@@ -27,15 +27,15 @@ body {
   position: fixed;
   overflow: hidden;
   top: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   width: 100%;
+  float: right;
 }
 
 .desktop-nav a {
-  float: right;
+  /* float: right; */
   color: #eabe62;
   padding: 15px;
-  /* display: inline-block; */
   text-align: center;
   text-decoration: none;
   /* make scrolling smooth */
@@ -56,9 +56,22 @@ body {
 }
 
 .mobile-nav {
-  /* have to hide this for now*/
-  display: none;
+  text-align: center;
+  /* text-decoration: none; */
+  list-style: none;
+  padding: 15px;
 }
+
+.mobile-nav a {
+  color: #eabe62;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.mobile-nav a:hover {
+  color: #a45445;
+}
+
 #about-me,
 #clubs {
   color: #a47345;
@@ -78,12 +91,10 @@ body {
 .siue,
 .maryville,
 .purdue {
-  /* width: 20%; */
   border: 5px solid black;
   border-radius: 50%;
   height: 100px;
   margin: 15px;
-  /* Find a white semo logo, and a square siue logo */
 }
 
 .sydney {
@@ -122,6 +133,23 @@ body {
   .col-md-6 {
     width: 45%;
     float: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .desktop-nav {
+    display: none;
+  }
+  .my-logo {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media (min-width: 600px) {
+  .mobile-nav {
+    display: none;
   }
 }
 
