@@ -134,6 +134,9 @@ body {
     width: 45%;
     float: left;
   }
+  .mobile-nav {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
@@ -144,12 +147,6 @@ body {
     display: block;
     margin: auto;
     width: 50%;
-  }
-}
-
-@media (min-width: 600px) {
-  .mobile-nav {
-    display: none;
   }
 }
 
@@ -174,6 +171,7 @@ body {
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-evenly;
+  padding: 15px;
 }
 
 h2 {
