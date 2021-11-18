@@ -91,7 +91,7 @@ body {
 .siue,
 .maryville,
 .purdue {
-  border: 5px solid black;
+  border: 5px solid #a47345;
   border-radius: 50%;
   height: 100px;
   margin: 15px;
@@ -180,4 +180,8 @@ h2 {
 
 h1 {
   font-size: 35px;
+}
+
+.colleges-images img:hover {
+  border-color: #eabe62;
 }
