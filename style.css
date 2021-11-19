@@ -6,16 +6,17 @@
 
 body {
   margin: 0;
+  font-family: monospace;
 }
 .desktop-logo {
   width: 50px;
   height: 50px;
+  text-decoration: none;
   /* float:left; */
 }
 
 .mobile-logo {
   align-self: center;
-  height: 75px;
 }
 
 .hero-image {
@@ -23,7 +24,7 @@ body {
   /* top/cover; */
   background-repeat: no-repeat;
   background-size: cover;
-  height: 775px;
+  height: 500px;
   background-position: center;
 }
 
@@ -32,7 +33,7 @@ body {
   position: fixed;
   overflow: hidden;
   top: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: monospace;
   width: 100%;
   float: right;
 }
@@ -46,14 +47,14 @@ body {
   /* make scrolling smooth */
 }
 
-.hero-text {
+/* .hero-text {
   position: absolute;
   color: #a45445;
   font-size: 30px;
   margin-top: 50px;
   padding-left: 50%;
   padding-top: 80px;
-}
+} */
 
 .desktop-nav a:hover {
   background-color: #a45445;
@@ -116,7 +117,7 @@ body {
 .instagram-img,
 .twitter-img,
 .facebook-img {
-  border: 5px solid whitesmoke;
+  border: 5px solid #a45445;
   height: 50px;
   border-radius: 50%;
   /* find a white snapchat theme, and make all images the same size */
@@ -190,6 +191,10 @@ h1 {
   font-size: 35px;
 }
 
-.colleges-images img:hover {
+/* .colleges-images img:hover {
   border-color: #eabe62;
+} */
+
+.socials img:hover {
+  border-color: #ea9a62;
 }
