@@ -198,3 +198,15 @@ h1 {
 .socials img:hover {
   border-color: #ea9a62;
 }
+
+.card-container {
+  display: flex;
+}
+
+.card-container img {
+  height: auto;
+}
+
+.card {
+  background-color: #ea9a62;
+}
