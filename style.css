@@ -47,14 +47,19 @@ body {
   /* make scrolling smooth */
 }
 
-/* .hero-text {
+.hero-text {
+  font-weight: bold;
+  text-shadow: #a47345;
   position: absolute;
+  border-radius: 20px;
   color: #a45445;
-  font-size: 30px;
-  margin-top: 50px;
-  padding-left: 50%;
-  padding-top: 80px;
-} */
+  font-size: 100px;
+  margin: 250px;
+  border: 5px solid #a45445;
+  right: 315px;
+  bottom: 150px;
+  padding: 20px;
+}
 
 .desktop-nav a:hover {
   background-color: #a45445;
@@ -149,7 +154,8 @@ body {
 
 @media (max-width: 600px) {
   .desktop-nav,
-  .desktop-logo {
+  .desktop-logo,
+  .hero-text {
     display: none;
   }
   .mobile-logo {
