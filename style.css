@@ -227,3 +227,7 @@ h1 {
 .caps {
   height: 100px;
 }
+
+.card-img-top {
+  height: 10px;
+}
