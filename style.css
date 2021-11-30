@@ -29,13 +29,13 @@ body {
 }
 
 .main-nav {
-  background-color: #ea7862;
-  position: fixed;
+  /* background-color: #ea7862; */
+  position: sticky;
   overflow: hidden;
   top: 0;
-  font-family: monospace;
   width: 100%;
-  float: right;
+  background-color: #ea7862;
+  /* float: right; */
 }
 
 .desktop-nav a {
@@ -76,7 +76,6 @@ body {
 .mobile-nav a {
   color: #eabe62;
   text-decoration: none;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .mobile-nav a:hover {
@@ -210,11 +209,13 @@ h1 {
 }
 
 .card-container img {
-  height: auto;
+  height: 100px;
+  width: auto;
 }
 
 .card {
   background-color: #ea9a62;
+  padding: 15px;
 }
 
 /* .card-clubs {
@@ -226,8 +227,4 @@ h1 {
 .taf,
 .caps {
   height: 100px;
-}
-
-.card-img-top {
-  height: 10px;
 }
