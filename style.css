@@ -17,11 +17,12 @@ body {
 
 .mobile-logo {
   align-self: center;
+  height: 100px;
+  width: auto;
 }
 
 .hero-image {
   background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v880-techi-08-master.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8d4c0ceb7df2e8fe25660e643e3a7cbe);
-  /* top/cover; */
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
@@ -36,6 +37,7 @@ body {
   width: 100%;
   background-color: #ea7862;
   /* float: right; */
+  z-index: 1;
 }
 
 .desktop-nav a {
@@ -67,6 +69,7 @@ body {
 }
 
 .mobile-nav {
+  position: sticky;
   text-align: center;
   /* text-decoration: none; */
   list-style: none;
@@ -161,6 +164,15 @@ body {
     display: block;
     margin: auto;
     width: 50%;
+  }
+  .col {
+    margin: 15px;
+    align-items: center;
+  }
+
+  .card-img-top {
+    height: 100px;
+    width: auto;
   }
 }
 
