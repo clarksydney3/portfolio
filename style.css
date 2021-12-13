@@ -171,7 +171,7 @@ body {
   }
 
   .card-img-top {
-    height: 100px;
+    height: 20px;
     width: auto;
   }
 }
@@ -186,9 +186,7 @@ body {
 .box {
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction:inherit; */
   justify-content: space-evenly;
-  /* gap: 50px;  */
   padding: 50px;
 }
 
@@ -208,10 +206,6 @@ h1 {
   font-size: 35px;
 }
 
-/* .colleges-images img:hover {
-  border-color: #eabe62;
-} */
-
 .socials img:hover {
   border-color: #ea9a62;
 }
@@ -223,6 +217,7 @@ h1 {
 
 .card-container {
   display: flex;
+  width: 40px;
 }
 
 .card-container img {
@@ -232,16 +227,18 @@ h1 {
 
 .card {
   background-color: #ea9a62;
-  padding: 15px;
+  padding: 50px;
+  border: none;
 }
-
-/* .card-clubs {
-  height: 100px;
-} */
 
 .nhs,
 .deca,
 .taf,
 .caps {
   height: 100px;
+}
+
+.card-img-top {
+  height: auto;
+  width: auto;
 }
