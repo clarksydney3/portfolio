@@ -113,6 +113,7 @@ body {
 .sydney {
   height: 350px;
   overflow: hidden;
+  margin-left: 25px;
 }
 
 .colleges-images {
@@ -143,15 +144,11 @@ body {
   .mobile-logo {
     display: none;
   }
-
-  /* .container {
-    width: 780px;
-    margin: 0 auto;
-  } */
-  /* .col-md-6 {
-    width: 45%;
-    float: left;
-  } */
+  .ab-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
 @media (max-width: 600px) {
@@ -241,4 +238,8 @@ h1 {
 .card-img-top {
   height: auto;
   width: auto;
+}
+
+p :hover {
+  color: auto;
 }
