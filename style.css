@@ -200,7 +200,8 @@ h2 {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 45px;
+  font-weight: 400;
 }
 
 .socials img:hover {
@@ -238,8 +239,4 @@ h1 {
 .card-img-top {
   height: auto;
   width: auto;
-}
-
-p :hover {
-  color: auto;
 }
