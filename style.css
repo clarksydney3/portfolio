@@ -244,4 +244,5 @@ h1 {
 
 .card-img-top {
   height: 200px;
+  overflow: hidden;
 }
