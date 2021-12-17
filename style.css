@@ -49,20 +49,6 @@ body {
   /* make scrolling smooth */
 }
 
-.hero-text {
-  font-weight: bold;
-  text-shadow: #a47345;
-  position: absolute;
-  border-radius: 20px;
-  color: #a45445;
-  font-size: 100px;
-  margin: 250px;
-  border: 5px solid #a45445;
-  right: 315px;
-  bottom: 150px;
-  padding: 20px;
-}
-
 .desktop-nav a:hover {
   background-color: #a45445;
   padding: 15px;
@@ -149,29 +135,46 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
   }
+  .hero-text {
+    font-weight: bold;
+    position: absolute;
+    border-radius: 20px;
+    color: #a45445;
+    font-size: 100px;
+    margin: 250px;
+    border: 5px solid #a45445;
+    right: 315px;
+    bottom: 150px;
+    padding: 20px;
+  }
 }
 
 @media (max-width: 600px) {
   .desktop-nav,
-  .desktop-logo,
-  .hero-text {
+  .desktop-logo {
     display: none;
   }
   .mobile-logo {
-    display: block;
-    margin: auto;
-    width: 50%;
+    display: none;
   }
   .col {
     margin: 15px;
     align-items: center;
   }
-
-  /* .card-img-top {
-    height: 150px;
-    width: auto;
-    overflow: hidden;
-  } */
+  .hero-text {
+    font-weight: bold;
+    position: absolute;
+    border-radius: 20px;
+    color: #a45445;
+    font-size: 100px;
+    margin: 250px;
+    border: 5px solid #a45445;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  .hero-text h1 {
+    margin: 15px;
+  }
 }
 
 .adv1,
