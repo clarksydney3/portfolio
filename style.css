@@ -46,6 +46,8 @@ body {
   padding: 15px;
   text-align: center;
   text-decoration: none;
+  font-size: 20px;
+
   /* make scrolling smooth */
 }
 
@@ -74,15 +76,18 @@ body {
 #about-me,
 #clubs {
   color: #a47345;
+  font-size: 18px;
 }
 
 #contacts {
   background-color: #a47345;
+  font-size: 18px;
 }
 
 #colleges,
 #advisors {
   background-color: #ea9a62;
+  font-size: 18px;
 }
 
 .missouri,
@@ -100,6 +105,7 @@ body {
   height: 350px;
   overflow: hidden;
   margin-left: 25px;
+  border-radius: 5px;
 }
 
 .colleges-images {
@@ -143,9 +149,11 @@ body {
     font-size: 100px;
     margin: 250px;
     border: 5px solid #a45445;
-    right: 315px;
-    bottom: 150px;
+    right: 325px;
+    bottom: 200px;
     padding: 20px;
+    /* text-align: center;
+    transform: translate(-50%, -50%); */
   }
 }
 
@@ -248,4 +256,5 @@ h1 {
 .card-img-top {
   height: 200px;
   overflow: hidden;
+  border-radius: 5px;
 }
